@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: center;
+    /* center everything */
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    padding: 18px 20px;
+    /* remove huge side padding */
+    background: #2b1a17;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.navbar nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.logo {
+    font-size: 22px;
+}
+
+/* HERO */
+.hero {
+    position: relative;
+    background: #3a241c;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    height: 90vh;
+}
+
+.hero-text {
+    width: 40%;
+}
+
+.hero-text h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.hero-text p {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.hero-img img {
+    width: 350px;
+}
+
+/* WAVE */
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* FEATURES */
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 40px;
+    background: #f3f3f3;
+}
+
+.feature {
+    text-align: center;
+    font-size: 14px;
+}
+
+.feature span {
+    font-size: 22px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* TYPES */
+.types {
+    background: #f3f3f3;
+    padding: 60px;
+    text-align: center;
+}
+
+.types h2 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 40px;
+    color: #3a241c;
+}
+
+.types-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.type-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.type-card img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.type-card h3 {
+    margin-bottom: 10px;
+    color: #3a241c;
+}
+
+.type-card ul {
+    font-size: 13px;
+    padding-left: 18px;
+}
